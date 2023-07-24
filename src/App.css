@@ -31,3 +31,31 @@ body {
   background-color: lavender;
   height: 100%;
 }
+
+ main h1 {
+  text-align: center;
+  margin-top: 2rem;
+ }
+
+ main h4 {
+  text-align: center;
+ }
+
+ .about .imgSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+ }
+
+ .about img {
+  border-radius: 50%;
+  width: 20%;
+  border: 3px solid rgb(95, 95, 175);
+ }
+
+ .about p {
+  margin: 1.5rem 5rem;
+  line-height: 175%;
+  font-size: large;
+ }
