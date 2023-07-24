@@ -13,16 +13,16 @@ function App() {
   const [page, setPage] = useState("About")
 
   const renderPage = () => {
-    if (page == "About") {
+    if (page === "About") {
       return <About />
     }
-    if (page == "Portfolio") {
+    if (page === "Portfolio") {
       return <Portfolio />
     }
-    if (page == "Resume") {
+    if (page === "Resume") {
       return <Resume />
     }
-    if (page == "Contact") {
+    if (page === "Contact") {
       return <Contact />
     }
   }
@@ -31,10 +31,12 @@ function App() {
   return (
     <div className="App">
       <AppContext.Provider
-        value={{ page, setPage }}
+        value={{setPage }}
       >
         <Header />
+        <main>
         {renderPage()}
+        </main>
       </AppContext.Provider>
     </div>
   );

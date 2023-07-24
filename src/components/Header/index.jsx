@@ -1,19 +1,24 @@
-import React, {useContext} from "react";
-import AppContext from "../../App"
+import React, { useContext } from "react";
+import {AppContext} from "../../App"
 
 function Header() {
 
-    const { page, setPage } = useContext(AppContext)
+    const { setPage } = useContext(AppContext)
+
+    const changePage = (event) => {
+      const page = event.target.innerHTML;
+      setPage(page)
+    }
 
 
   return (
     <header>
       <h1>Caurissa Nevy</h1>
       <nav>
-        <li onClick={setPage("About")}>About</li>
-        <li onClick={setPage("Portfolio")}>Portfolio</li>
-        <li onClick={setPage("Resume")}>Resume</li>
-        <li onClick={setPage("Contact")}>Contact</li>
+        <li onClick={changePage}>About</li>
+        <li onClick={changePage}>Portfolio</li>
+        <li onClick={changePage}>Resume</li>
+        <li onClick={changePage}>Contact</li>
       </nav>
     </header>
   )
