@@ -59,3 +59,63 @@ body {
   line-height: 175%;
   font-size: large;
  }
+
+ .projImg {
+  width: 100%;
+  border-radius: 8px;
+ }
+
+ .card {
+  width: 40%;
+  text-align: center;
+  background-color: rgb(95, 95, 175);
+  color: lavender;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  margin: 2rem auto;
+ }
+
+ .contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 1rem auto;
+ }
+
+ .contactForm input, .contactForm textarea {
+  margin-bottom: 5px;
+  border-radius: 3px;
+  border: 1px solid rgb(95, 95, 175);
+  padding: 8px;
+ }
+
+ .contactForm textarea {
+  resize: none;
+  height: 100px;
+ }
+
+ .contactForm button {
+  width: 15%;
+  padding: 6px;
+  margin: 10px auto;
+  border: 1px solid rgb(95, 95, 175);
+  border-radius: 3px;
+  background-color: white;
+  color: rgb(95, 95, 175);
+ }
+
+ .contactForm button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: .5s;
+ }
+
+ .contactForm button:not(:hover) {
+  transform: scale(1);
+  transition: .5s;
+ }
+
+ .portfolio h1 {
+  margin: 0;
+ }
