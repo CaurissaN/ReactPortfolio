@@ -8,7 +8,7 @@ function About() {
         <img src={me} alt='portfolio image of caurissa' />
       </div>
       <h1>About Me</h1>
-      <h4>Committed, focused, and victorious.</h4>
+      <h4>Committed, Focused, and Victorious.</h4>
       <p>
 
         Caurissa has an immense passion for Real estate. With four years of industry experience, she has acquired dynamic skills

@@ -19,5 +19,19 @@
         "title": "Do You Even Trivia Bro",
         "github": "https://github.com/JTruehitt/Do_You_Even_Trivia_Bro",
         "live": "https://jtruehitt.github.io/Do_You_Even_Trivia_Bro/"
+    },
+    {
+        "id": 4,
+        "image": "./note taker scrns.png",
+        "title": "Note Taker",
+        "github": "https://github.com/CaurissaN/Note-Taker",
+        "live": "https://note-taker-85051-61eff11e09fc.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "image": "./sport-spot.png",
+        "title": "Sport Spot",
+        "github": "https://github.com/restas13/sport-spot",
+        "live": "https://sport-spot-group7.herokuapp.com/"
     }
 ]
