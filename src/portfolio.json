@@ -33,5 +33,13 @@
         "title": "Sport Spot",
         "github": "https://github.com/restas13/sport-spot",
         "live": "https://sport-spot-group7.herokuapp.com/"
+    },
+    {
+        "id": 6,
+        "image": "./Nurture Navigator.png",
+        "title": "Nurture Navigator",
+        "github": "https://github.com/renkayla/NurtureNavigator",
+        "live": "https://nuturenagivator-7619fea4df9e.herokuapp.com/"
     }
+
 ]
